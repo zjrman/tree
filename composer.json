@@ -1,33 +1,21 @@
+
 {
     "name": "zjrman/tree",
-    "description": "Yii2 extension chaned kartiv",
-    "keywords": ["tree"],
-    "type": "yii2-extension",
+    "description": "changed kartik-v tree",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/zjrman/tree/issues?state=open",
-        "source": "https://github.com/zjrman/tree"
-    },
     "authors": [
         {
-            "name": "getpu",
-            "email": "zjrman@getpu.com",
-            "homepage": "http://getpu.com"
+            "name": "zjrman",
+            "email": "zjrman@getpu.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "yiisoft/yii2": "^2.0.0",
-        "yiisoft/yii2-swiftmailer": "^2.0.0",
-        "yiisoft/yii2-authclient": "^2.1.0"
-    },
-    "require-dev": {
-        "yiisoft/yii2-codeception": "^2.0.0",
-        "codeception/specify": "^0.4.3",
-        "codeception/verify": "^0.3.1"
+        "yiisoft/yii2-bootstrap": "@dev"
     },
     "autoload": {
         "psr-4": {
             "zjrman\\tree\\": ""
         }
     }
+}
